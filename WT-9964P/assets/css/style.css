@@ -1,0 +1,292 @@
+aside,
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.gradient-bg{
+    background: linear-gradient(#383f4e, #383f9e);
+}
+
+
+#mainNavbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+#mainNavbar ul li{
+    display: inline;
+}
+#mainNavbar .navbar-brand {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#mainNavbar .navbar-brand:hover,
+#mainNavbar .navbar-brand:active {
+    color: #2937f0;
+}
+#mainNavbar .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    color: #212529;
+}
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #2937f0;
+}
+#mainNavbar .navbar-nav .nav-item .nav-link.active {
+    color: #2937f0;
+}
+
+/* ----------------------------------------------------- */
+.app-badge{
+    width: 162px;
+    height: 48px;
+}
+.masthead {
+    background-color: #f8f9fa;
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+}
+.masthead .masthead-device-mockup .device-wrapper {
+    max-width: 10rem;
+    z-index: 1;
+}
+
+.masthead .masthead-device-mockup .circle {
+    position: absolute;
+    fill: url(#circleGradient);
+    width: 70%;
+    display: none;
+}
+@media (min-width: 567px) {
+    .masthead .masthead-device-mockup .circle {
+        width: 70%;
+        display: block;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+        max-width: 12.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .masthead .masthead-device-mockup .circle{
+        width: 60%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+@media (min-width: 992px) {
+    .masthead .masthead-device-mockup .circle {
+        width: 90%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+@media (min-width: 1200px) {
+    .masthead .masthead-device-mockup .circle {
+        width: 75%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+@media (min-width: 1400px) {
+    .masthead .masthead-device-mockup .circle {
+        width: 70%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+        max-width: 17rem;
+    }
+}
+
+
+
+
+.masthead .masthead-device-mockup .circle .gradient-start-color {
+    stop-color: #383f4e;
+}
+.masthead .masthead-device-mockup .circle .gradient-end-color {
+    stop-color: #383f9e;
+}
+
+.masthead .masthead-device-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.masthead .masthead-device-mockup .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    left: 10%;
+    bottom: 15%;
+    transform: rotate(-10deg);
+    fill: #383f4e;
+}
+.masthead .masthead-device-mockup .shape-2{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    right: 10%;
+    top: 15%;
+    fill: #383f9e;
+}
+
+/* First Section */
+
+.logo{
+    height:3rem;
+}
+
+/* Second Section */
+#secondSection .features-device-mockup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#secondSection .features-device-mockup .circle {
+    position: absolute;
+    left: 0;
+    fill: url(#circleGradient);
+    width: 70%;
+    display: none;
+}
+#secondSection .features-device-mockup .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    right: 10%;
+    top: 15%;
+    transform: rotate(10deg);
+    fill: #383f4e;
+}
+#secondSection .features-device-mockup .shape-2{
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    left: 10%;
+    bottom: 15%;
+    fill: #383f9e;
+}
+#secondSection .features-device-mockup .device-wrapper {
+    max-width: 10rem;
+    z-index: 1;
+}
+@media (min-width: 576px) {
+    #secondSection .features-device-mockup .circle {
+        width: 70%;
+        display: block;
+        left: auto;
+    }
+    #secondSection .features-device-mockup .device-wrapper {
+        max-width: 12.5rem;
+    }
+}
+@media (min-width: 768px) {
+    #secondSection .features-device-mockup .circle{
+        width: 60%;
+        left: auto;
+    }
+    #secondSection .features-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+@media (min-width: 992px) {
+    #secondSection .features-device-mockup .circle {
+        width: 90%;
+        left: -25%;
+    }
+    .features-device-mockup .shape-1{
+        top: 5%;
+        right: -15%;
+    }
+    .features-device-mockup .shape-2 {
+        bottom: 10%;
+        left: -10%;
+    }
+    #secondSection .features-device-mockup .device-wrapper {
+        max-width: 15rem;
+        margin-left: auto;
+    }
+}
+@media (min-width: 1200px) {
+    #secondSection .features-device-mockup .circle {
+        width: 75%;
+        left: 0;
+    }
+    #secondSection .features-device-mockup .shape-2 {
+        bottom: 15%;
+        left: 10%;
+    }
+    #secondSection .features-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+@media (min-width: 1400px) {
+    #secondSection .features-device-mockup .circle {
+        width: 80%;
+        left: 0;
+    }
+    #secondSection .features-device-mockup .device-wrapper {
+        max-width: 17rem;
+    }
+}
+
+.icon-features{
+    font-size: 4rem;
+}
+.icon-features-bg{
+    background: linear-gradient(#383f4e, #383f9e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font-alt {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+/* Third Section */
+#thirdSection {
+    background-color: #f8f9fa;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* Fourth Section */
+#fourthSection{
+    position: relative;
+    background-image: url("../images/1500x800.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 15rem 0;
+}
+#fourthSection:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+#fourthSection .container {
+    z-index: 10;
+    position: relative;
+}
+/* Fifth Section */
+
+/* Copyrights */
+.copyright{
+    background-color: black;
+}
+.copyright a{
+    color: rgba(255, 255, 255, 0.5);
+}
